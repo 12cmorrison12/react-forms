@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Box from "./Box";
-import NewBoxForm from "./NewBoxForm";
+import NewBoxForm from "./NewBoxForm.js";
 
 function BoxList() {
     const [boxes, setBoxes] = useState([]);
