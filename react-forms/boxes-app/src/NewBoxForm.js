@@ -18,7 +18,7 @@ function NewBoxForm({ createBox }) {
 
     const getInput = (e) => {
         e.preventDefeault();
-        makeInput({...formData, id: uuid() });
+        createBox({...formData, id: uuid() });
         setFormData({ height: "", width: "", backgroundColor: ""});
     }
 
